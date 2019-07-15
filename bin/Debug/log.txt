@@ -1,0 +1,18 @@
+"14.07.2019 17:51:52";"33 - 44";"result: -11";"PlusMinus"
+"14.07.2019 17:51:58";"-33 - -34";"result: 1";"PlusMinus"
+"14.07.2019 17:52:05";"df";"result: 0";"Wrong input data"
+"14.07.2019 17:52:07";"h";"result: 0";"Help"
+"14.07.2019 17:52:09";"report";"result: 0";"Report"
+"14.07.2019 17:52:39";""";"somewrongtext";""";"result: 0";"Wrong input data"
+"14.07.2019 17:52:44";"report";"result: 0";"Report"
+"14.07.2019 17:52:49";"exit";"result: 0";"Exit"
+|7/15/2019 9:36:03 AM |exit |result: 0 |Exit |
+|7/15/2019 9:39:03 AM |h |result: 0 |Help |
+|7/15/2019 9:39:05 AM |report |result: 0 |Report |
+|7/15/2019 9:39:08 AM |report |result: 0 |Report |
+|7/15/2019 9:39:10 AM |test |result: 0 |Wrong input data |
+|7/15/2019 9:39:11 AM |dk |result: 0 |Wrong input data |
+|7/15/2019 9:39:15 AM |report |result: 0 |Report |
+|7/15/2019 9:39:21 AM |12 * 43 |result: 516 |MultDiv |
+|7/15/2019 9:39:29 AM |report |result: 0 |Report |
+|7/15/2019 9:39:31 AM |quit |result: 0 |Exit |
