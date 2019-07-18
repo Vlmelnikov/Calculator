@@ -20,7 +20,7 @@ namespace Calc
                 "- sum, plus or \"+\"\n" +
                 "- difference, diff or \"-\"\n" +
                 "- multiply or \"*\"\n" +
-                "- divide or \"\\\"\n" +
+                "- divide or \"/\"\n" +
                 "- square\n" +
                 "- report\n");
         }

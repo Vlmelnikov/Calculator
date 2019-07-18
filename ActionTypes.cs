@@ -6,29 +6,30 @@ using System.Threading.Tasks;
 
 namespace Calc
 {
-    static class ActionTypes
+    public enum opt
     {
-        public enum opt
-        {           
-            sum = 1, // "sum" should be first value
-            plus,
-            difference,
-            diff,
-            minus,
-            mult,
-            multiply,
-            multiplication,
-            division,
-            divide,
-            div,
-            square,
-            h,
-            help,
-            report,
-            backtostart,
-            quit,
-            exit  // should be last value
-        }
+        sum = 1, // "sum" should be first value
+        plus,
+        difference,
+        diff,
+        minus,
+        mult,
+        multiply,
+        multiplication,
+        division,
+        divide,
+        div,
+        square,
+        h,
+        help,
+        report,
+        backtostart,
+        quit,
+        exit  // should be last value
+    }
+
+    static class ActionTypes
+    {       
         static public string ActionType(string command)
         {
             opt i;
@@ -48,25 +49,27 @@ namespace Calc
         static private string Symbols(string command, ref Boolean s)
         {
             s = false;
-            if (command == "+")
+            switch (command)
             {
-                command = "plus";
-                s = true;
-            }
-            if (command == "-")
-            {
-                command = "minus";
-                s = true;
-            }
-            if (command == "*")
-            {
-                command = "multiply";
-                s = true;
-            }
-            if (command == "/")
-            {
-                command = "divide";
-                s = true;
+                case "+":
+                    command = "plus";
+                    s = true;
+                    break;
+
+                case "-":
+                    command = "minus";
+                    s = true;
+                    break;
+
+                case "*":
+                    command = "multiply";
+                    s = true;
+                    break;
+
+                case "/":
+                    command = "divide";
+                    s = true;
+                    break;                    
             }
             return command;
         }

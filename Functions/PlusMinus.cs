@@ -9,20 +9,15 @@ namespace Calc
     class PlusMinus : IFunctions
     {
         double answer;
-        string classname = nameof(PlusMinus);
         public void Function(Parse data, string InpData)
         {
-            if (data.command == "plus")
-            {
-                answer = data.num1 + data.num2;
-                Logger.Logging(InpData, answer, classname);
-            }
-            else
-            {
+            if (data.command == "plus")           
+                answer = data.num1 + data.num2;            
+            else            
                 answer = data.num1 - data.num2;
-                Logger.Logging(InpData, answer, classname);
-            }
-            Console.WriteLine("Result = " + answer);
+
+            Logger.Logging(InpData, answer, nameof(PlusMinus));            
+            Console.WriteLine("Result = {0}", answer);
         }
     }
 }

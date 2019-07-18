@@ -16,3 +16,19 @@
 |7/15/2019 9:39:21 AM |12 * 43 |result: 516 |MultDiv |
 |7/15/2019 9:39:29 AM |report |result: 0 |Report |
 |7/15/2019 9:39:31 AM |quit |result: 0 |Exit |
+(|0 |1 |result: 3 |4 |, 7/18/2019 12:04:04 PM, 4 + 3, 7, PlusMinus)
+(|0 |1 |result: 3 |4 |, 7/18/2019 12:04:08 PM, test, 0, Wrong input data)
+(|0 |1 |result: 3 |4 |, 7/18/2019 12:04:10 PM, help, 0, Help)
+(|0 |1 |result: 3 |4 |, 7/18/2019 12:04:12 PM, h, 0, Help)
+(|0 |1 |result: 3 |4 |, 7/18/2019 12:04:32 PM, report, 0, Report)
+(|0 |1 |result: 3 |4 |, 7/18/2019 12:04:55 PM, exit, 0, Exit)
+|7/18/2019 12:07:57 PM |test |result: 0 |Wrong input data |
+|7/18/2019 12:07:58 PM |h |result: 0 |Help |
+|7/18/2019 12:08:04 PM |4 * 5 |result: 20 |MultDiv |
+|7/18/2019 12:08:10 PM |h 3 4 |result: 0 |Help |
+|7/18/2019 12:08:35 PM |backtostart |result: 0 |Wrong input data |
+|7/18/2019 12:08:38 PM |h |result: 0 |Help |
+|7/18/2019 12:08:42 PM |report |result: 0 |Report |
+|7/18/2019 12:09:52 PM |4 / 4 |result: 1 |MultDiv |
+|7/18/2019 12:10:11 PM |report |result: 0 |Report |
+|7/18/2019 12:10:14 PM |exit |result: 0 |Exit |
