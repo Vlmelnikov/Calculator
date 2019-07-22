@@ -11,3 +11,10 @@ D:\Rep\Calc\obj\Debug\Calc.csprojAssemblyReference.cache
 D:\Rep\Calc\obj\Debug\Calc.csproj.CoreCompileInputs.cache
 D:\Rep\Calc\obj\Debug\Calc.exe
 D:\Rep\Calc\obj\Debug\Calc.pdb
+D:\Rep\Calculator\bin\Debug\Calc.exe.config
+D:\Rep\Calculator\bin\Debug\Calc.exe
+D:\Rep\Calculator\bin\Debug\Calc.pdb
+D:\Rep\Calculator\obj\Debug\Calc.csprojAssemblyReference.cache
+D:\Rep\Calculator\obj\Debug\Calc.csproj.CoreCompileInputs.cache
+D:\Rep\Calculator\obj\Debug\Calc.exe
+D:\Rep\Calculator\obj\Debug\Calc.pdb

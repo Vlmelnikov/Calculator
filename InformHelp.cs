@@ -11,7 +11,7 @@ namespace Calc
                 "Enter two numbers and operation on them, separating by spaces.\n");
         }
 
-        static public void Help()
+        static public void Help(string indata)
         {
             Console.WriteLine("On this place need to add full instruction to use this APP.\n" +
                 "Number format is 123,45\n" +
@@ -23,12 +23,14 @@ namespace Calc
                 "- divide or \"/\"\n" +
                 "- square\n" +
                 "- report\n");
+            Logger.Logging(indata, 0, "Help");
         }
 
-        static public void IncorrectInput()
+        static public void IncorrectInput(string indata)
         {
             Console.WriteLine("Input is not correct. " +
                 "For help use \"H\" command.");
+            Logger.Logging(indata, 0, "Wrong input data");
         }
     }
 }

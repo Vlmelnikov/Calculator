@@ -44,7 +44,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ActionTypes.cs" />
-    <Compile Include="Report.cs" />
+    <Compile Include="Calculator.cs" />
+    <Compile Include="Functions\OtherActions.cs" />
+    <Compile Include="Functions\Report.cs" />
     <Compile Include="Functions\Square.cs" />
     <Compile Include="Logger.cs" />
     <Compile Include="Functions\MultDiv.cs" />
@@ -52,7 +54,7 @@
     <Compile Include="Functions\IFunctions.cs" />
     <Compile Include="Parse.cs" />
     <Compile Include="InformHelp.cs" />
-    <Compile Include="MainClass.cs" />
+    <Compile Include="Programm.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

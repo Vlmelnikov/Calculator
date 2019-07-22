@@ -32,3 +32,10 @@
 |7/18/2019 12:09:52 PM |4 / 4 |result: 1 |MultDiv |
 |7/18/2019 12:10:11 PM |report |result: 0 |Report |
 |7/18/2019 12:10:14 PM |exit |result: 0 |Exit |
+|7/22/2019 1:31:14 PM |23 + 73 |result: 96 |PlusMinus |
+|7/22/2019 1:58:07 PM |34 * 4 |result: 136 |MultDiv |
+|7/22/2019 1:58:09 PM |3 jjkelf |result: 0 |Wrong input data |
+|7/22/2019 1:58:13 PM |exit |result: 0 |Exit |
+|7/22/2019 2:00:51 PM |34 - 45 |result: -11 |PlusMinus |
+|7/22/2019 2:00:55 PM |report |result: 0 |Report |
+|7/22/2019 2:00:57 PM |exit |result: 0 |Exit |

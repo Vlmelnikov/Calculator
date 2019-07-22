@@ -5,18 +5,22 @@ namespace Calc
     class Parse
     {
         public string command;
+        public string indata;
         public dynamic num1;
         public dynamic num2;
 
-        public Parse(string[] objectList)
+        public Parse(string InpData)
         {
-            if (objectList.Length == 1)
-                ParseOneValue(objectList, ref command);
+            indata = InpData;
+            string[] a = InpData.Split(' ');
 
-            if (objectList.Length == 3)
-                ParseThreeValues(objectList, ref command, ref num1, ref num2);             
+            if (a.Length == 1)
+                ParseOneValue(a, ref command);
 
-            if (objectList.Length == 2 | objectList.Length > 3)
+            if (a.Length == 3)
+                ParseThreeValues(a, ref command, ref num1, ref num2);             
+
+            if (a.Length == 2 | a.Length > 3)
                 command = "backtostart";
 
             if (command == null)

@@ -9,14 +9,14 @@ namespace Calc
     class MultDiv : IFunctions
     {
         dynamic answer;
-        public void Function(Parse data, string InpData)
+        public void Function(Parse data)
         {
             if (data.command == "multiply")            
                 answer = data.num1 * data.num2;                       
             else
                 answer = data.num1 / data.num2;
 
-            Logger.Logging(InpData, answer, nameof(MultDiv));            
+            Logger.Logging(data.indata, answer, nameof(MultDiv));            
             Console.WriteLine("Result = {0}", answer);
         }
     }

@@ -9,10 +9,10 @@ namespace Calc
     class Square : IFunctions
     {
         dynamic answer;
-        public void Function(Parse data, string InpData)
+        public void Function(Parse data)
         {
             answer = data.num1 * data.num2;
-            Logger.Logging(InpData, answer, nameof(Square));
+            Logger.Logging(data.indata, answer, nameof(Square));
             Console.WriteLine("Result = {0}", answer);
         }
     }

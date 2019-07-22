@@ -9,14 +9,14 @@ namespace Calc
     class PlusMinus : IFunctions
     {
         double answer;
-        public void Function(Parse data, string InpData)
+        public void Function(Parse data)
         {
             if (data.command == "plus")           
                 answer = data.num1 + data.num2;            
             else            
                 answer = data.num1 - data.num2;
 
-            Logger.Logging(InpData, answer, nameof(PlusMinus));            
+            Logger.Logging(data.indata, answer, nameof(PlusMinus));            
             Console.WriteLine("Result = {0}", answer);
         }
     }

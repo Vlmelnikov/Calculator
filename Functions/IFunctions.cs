@@ -8,6 +8,6 @@ namespace Calc
 {
     interface IFunctions
     {
-        void Function(Parse data, string InpData);        
+        void Function(Parse data);        
     }
 }
